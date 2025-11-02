@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2AI-SEDS — Workshop</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .hero {
+      position: relative;
+      height: 70vh;
+      overflow: hidden;
+    }
+
+    .hero img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.75);
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      width: 80%;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .subtitle {
+      color: #e2e8f0;
+      font-size: 1.1em;
+      margin-top: 10px;
+      line-height: 1.4;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    fieldset {
+      border: 2px solid #06b6d4;
+      border-radius: 16px;
+      padding: 24px 30px;
+      margin: 30px 0;
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease-in-out;
+    }
+
+    fieldset:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(6, 182, 212, 0.4);
+      border-color: #22d3ee;
+      background: rgba(6, 182, 212, 0.05);
+    }
+
+    legend {
+      padding: 6px 14px;
+      background: linear-gradient(90deg, #0ea5e9, #06b6d4);
+      border-radius: 10px;
+      font-weight: bold;
+      color: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    a {
+      color: #3b82f6;
+      text-decoration: underline;
+      transition: all 0.3s ease-in-out;
+      display: inline-block;
+      padding: 2px 4px;
+      border-radius: 6px;
+    }
+
+    a:hover {
+      color: #60a5fa;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      color: #94a3b8;
+    }
+
+    @keyframes pulseRed {
+      0% { color: #ef4444; }
+      50% { color: #f87171; }
+      100% { color: #ef4444; }
+    }
+
+    .date-red {
+      color: #ef4444;
+      animation: pulseRed 2s infinite ease-in-out;
+      font-weight: bold;
+    }
+
+    .icon {
+      color: #38bdf8;
+      margin-right: 6px;
+    }
+  
+/* CFP - publication note box (slightly darker background) */
+.cfp-note {
+  margin-top: 18px;
+  padding: 18px 20px;
+  border: 1px solid rgba(148,163,184,0.35);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+}
+.cfp-note h4 {
+  margin: 0 0 8px 0;
+}
+/* CFP guidelines list styling */
+.cfp-guidelines {
+  margin: 8px 0 16px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.cfp-guidelines li {
+  margin: 6px 0;
+}
+
+  
+/* Workshop Chairs — card layout (formalised) */
+.chairs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 10px;
+}
+.chair-card {
+  flex: 1 1 280px;
+  background: #0b1224;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+.chair-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+.chair-card p {
+  margin: 0.25rem 0;
+  color: #cbd5e1;
+}
+.chair-card a {
+  text-decoration: underline;
+  color: #60a5fa;
+}
+
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="aa.jpg" alt="2AI-SEDS Conference Figure">
+    <div class="hero-text">
+      <h1>The 1st International Workshop on Advances in Artificial Intelligence for Software Engineering and Distributed Systems (2AI-SEDS)</h1>
+      <p class="subtitle">
+        <h3>In Conjunction with 40th AINA-2026 Conference<br></h3>
+        ———<br>
+       <h3> Victoria University of Wellington, New Zealand<br></h3>
+       <h3> April 8 to April 10, 2026 </h3>
+      </p>
+    </div>
+  </header>
+
+  <main>
+<fieldset id="organizers">
+  <legend>Workshop Chairs</legend>
+
+ 
+
+  <div class="chairs">
+    <div class="chair-card">
+      <h3><strong>Dr. Olfa Ferchichi</strong></h3>
+      <p>RIADI Laboratory, ENSI, Manouba University &amp; Higher School of Applied Sciences and Management (SESAME), Tunisia</p>
+      <p>Email : <a href="mailto:olfaferchi@yahoo.fr">olfaferchi@yahoo.fr</a> &nbsp;|&nbsp; <a href="mailto:olfa.ferchichi@sesame.com.tn">olfa.ferchichi@sesame.com.tn</a></p>
+    </div>
+    <div class="chair-card">
+      <h3><strong>Dr. Raoudha Beltaifa</strong></h3>
+      <p>RIADI Laboratory, ENSI, Manouba University, Faculty of Science, University of Carthage, Tunisia</p>
+      <p>Email : <a href="mailto:raoudhabeltaifa2011@gmail.com">raoudhabeltaifa2011@gmail.com</a></p>
+    </div>
+    <div class="chair-card">
+      <h3><strong>Prof. Lamia Labed Jilani</strong></h3>
+      <p>RIADI Laboratory, ENSI, Manouba University, Virtual University of Tunis, Tunisia</p>
+      <p>Email : <a href="mailto:labed.llj@gmail.com">labed.llj@gmail.com</a></p>
+    </div>
+  </div>
+</fieldset>
+<fieldset id="about">
+      <legend>About the Workshop</legend>
+      <p>The advanced Artificial Intelligence (AI) that has been included into logic engineering has significantly changed how algorithms are developed, tested, and maintained. Deep Learning (DL) makes it possible to automatically extract complex expressions from large amounts of code, making tasks like anomaly detection, fault prediction, and automatic code generation easier. On the other hand, Reinforcement Learning (RL) provides an adaptive learning framework that enables the optimization of development, resource allocation, or software service orchestration processes based on dynamic environmental returns.</p>
+      <p>Furthermore, semantic analysis of source code, automatic documentation, and comprehension of software behavior are all aided by Natural Language Processing (NLP) techniques, such as those incorporated into intelligent programming assistants. When combined, these methods open the door to a new era of intelligent software engineering marked by more autonomous, effective, and self-adaptive systems.</p>
+      <p>The goal of the AIAI-SEDS 2026 workshop is to bring together researchers and practitioners to discuss developments, challenges, and emerging trends in the fields of artificial intelligence applied to distributed and logical systems. The workshop places special emphasis on contemporary methods of DL, RL, and NLP, which are crucial to the modeling, semantic reasoning, and dynamic adaptation of complex logical systems.</p>
+    </fieldset>
+<fieldset id="cfp">
+  <legend>Call for Papers (CFP)</legend>
+
+  
+
+
+
+  <p>We welcome original research and experience papers that explore recent advances in <strong>Deep Learning (DL)</strong>, <strong>Reinforcement Learning (RL)</strong>, and <strong>Natural Language Processing (NLP)</strong> applied to <strong>software engineering</strong> and <strong>distributed intelligent systems</strong>.</p>
+
+  <div class="cfp-note">
+    <h4><strong>Publication &amp; Indexation</strong></h4>
+    <p>Accepted papers will be included in the conference proceedings of <em>Lecture Notes in Data Engineering and Communication Technologies</em> (LNDECT) published by Springer. Indexing: the LNDECT series is indexed by <strong>EI</strong> and <strong>SCOPUS</strong>.</p>
+  </div>
+</fieldset>
+
+
+    <fieldset id="topics">
+      <legend>Topics of Interest</legend>
+      <ul>
+        <li>AI for software design, testing, and maintenance</li>
+        <li>Deep learning architectures for code analysis</li>
+        <li>Reinforcement learning for software optimization and orchestration</li>
+        <li>Natural language processing for code understanding and documentation</li>
+        <li>Semantic reasoning and intelligent decision-making in software systems</li>
+        <li>Federated and distributed learning frameworks</li>
+        <li>Edge-cloud collaboration and AI orchestration</li>
+        <li>Autonomous and adaptive service management</li>
+        <li>Human-centric AI in software engineering</li>
+        <li>Security, privacy, and trust in AI-based software systems</li>
+        <li>Explainable and ethical AI in distributed software contexts</li>
+      </ul>
+    </fieldset>
+
+    
+
+
+
+    <fieldset id="submission">
+      <legend>Submission Guidelines</legend>
+      <p>Authors are invited to submit original and unpublished research papers via the conference submission system.</p>
+      <p><span class="icon">📄</span><a href="https://voyager.ce.fit.ac.jp/conf/aina/2026/" target="_blank">AINA-2026 Paper Submission and Publication</a></p>
+      <p><span class="icon">📘</span><a href="https://voyager.ce.fit.ac.jp/conf/aina/2026/" target="_blank">AINA-2026 guidelines</a></p>
+      <p><span class="icon">🔗</span><a href="https://voyager.ce.fit.ac.jp/conftools/Springer/For-the-authors-LECTURE-NOTES-TEMPLATES.zip" target="_blank">Templates (ZIP)</a></p>
+      <p><span class="icon">📝</span><a href="https://voyager.ce.fit.ac.jp/conf/aina/2026/" target="_blank">AINA-2026 Registration</a></p>
+      <p>All papers will undergo a peer review process, and accepted papers will be published in the official workshop proceedings.</p>
+      <p>Authors of accepted papers, or at least one of them, are requested to register and present their work at the conference, otherwise their papers will be removed from the digital library after the conference.</p>
+      <p><span class="icon">🌐</span><a href="https://voyager.ce.fit.ac.jp/conf/aina/2026/" target="_blank">AINA 2026 website</a></p>
+    </fieldset>
+
+    <fieldset id="dates">
+      <legend>Important Dates</legend>
+      <ul>
+        <li><strong>Submission Deadline:</strong> <span class="date-red">November 25, 2025</span></li>
+        <li><strong>Authors Notification:</strong> <span class="date-red">January 10, 2026</span></li>
+        <li><strong>Author Registration:</strong> <span class="date-red">January 25, 2026</span></li>
+        <li><strong>Final Manuscript:</strong> <span class="date-red">January 25, 2026</span></li>
+        <li><strong>Conference Dates:</strong> <span class="date-red">April 8 – April 10, 2026</span></li>
+        <li><strong>AINA-2026 Important Dates:</strong> <a href="https://voyager.ce.fit.ac.jp/conf/aina/2026/" target="_blank" style="color:#3b82f6;">https://voyager.ce.fit.ac.jp/conf/aina/2026/</a></li>
+      </ul>
+    </fieldset>
+
+
+
+
+ <fieldset id=" persons">
+      <legend>Leading contact person</legend>
+     <div class="chair-card">
+      <h3><strong>Dr. Olfa Ferchichi</strong></h3>
+      <p>RIADI Laboratory, ENSI, Manouba University &amp; Higher School of Applied Sciences and Management (SESAME), Tunisia</p>
+      <p>Email : <a href="mailto:olfaferchi@yahoo.fr">olfaferchi@yahoo.fr</a> &nbsp;|&nbsp; <a href="mailto:olfa.ferchichi@sesame.com.tn">olfa.ferchichi@sesame.com.tn</a></p>
+    </div>
+    <div class="chair-card">
+      <h3><strong>Dr. Raoudha Beltaifa</strong></h3>
+      <p>RIADI Laboratory, ENSI, Manouba University, Faculty of Science, University of Carthage, Tunisia</p>
+      <p>Email : <a href="mailto:raoudhabeltaifa2011@gmail.com">raoudhabeltaifa2011@gmail.com</a></p>
+    </div>
+
+
+    </fieldset>
+
+
+
+
+</main>
+
+  <footer>
+    <p>© 2026 2AI-SEDS Workshop — In conjunction with AINA 2026</p>
+  </footer>
+</body>
+</html>
